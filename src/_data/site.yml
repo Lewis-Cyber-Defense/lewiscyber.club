@@ -3,14 +3,16 @@ images:
   emote: https://raw.githubusercontent.com/redbrick/design-system/main/assets/logos/resign-emote.png
   logo: https://raw.githubusercontent.com/redbrick/design-system/main/assets/logos/logo.png
 society:
-  name: Redbrick
-  tagline: DCU's Networking Society.
+  name: LU Cyber Defense Club
+  tagline: Lewis University's cyber competition team.
 navigation:
   global:
-    - text: Open Governance
-      link: /open-governance/readme.html
     - text: Blog
-      link: /blog/posts/2024-01-31-redbrick-maintenance-with-nomad.html
+      link: /blog
+    - text: Competitions
+      link: /competitions
+    - text: Pilots Handbook
+      link: https://ph.dj.je/
   blog:
     - text: Events
       tag: events
@@ -33,9 +35,9 @@ drawer: navigation
 home:
   hero:
     title:
-      secondary: DCU's Networking Society.
-      primary: Become a Member.
-    body: Redbrick was formed from a battered 386 PC (dubbed Nurse) and bits of borrowed memory - these days we spend our time running tech events for our members and deploying services. We’re open to everyone, regardless of computing level, who want to come and learn!
+      secondary: Lewis University Cyber Defense Club.
+      primary: National Championship Winning Team.
+    body: The CaMS Cyber Defense Club offers students hands-on opportunities to become cyber security experts. We work together to learn the concepts, skills, and tools modern cyber security warriors need to defend mission-critical systems. One of the things that makes this activity unique is that it is entirely student-run. That way, it really serves as the perfect complement to all the security-focused coursework you can take as a Computer Science student at Lewis University.
     buttons:
       primary:
         text: Signup
@@ -45,9 +47,9 @@ home:
         link: https://discord.redbrick.dcu.ie
   cta:
     title: Don't Miss Out
-    body: Redbrick hosts events for everything tech related - from computer programming tutorials to workshops with multinational tech companies.
+    body: Lewis University is a nationally recognized Center of Academic Excellence in Information Assurance Education by the Department of Homeland Security & the National Security Agency
     button:
-      text: Signup
+      text: Join us today
       link: https://join.redbrick.dcu.ie
     gallery:
       r1c1: https://cdn.redbrick.dcu.ie/atlas/static/img/tagging-24.jpg
@@ -60,71 +62,31 @@ home:
       r3c2: https://cdn.redbrick.dcu.ie/atlas/static/img/cmt-24-25.jpg
       r3c3: https://cdn.redbrick.dcu.ie/atlas/static/img/CSBallCmt24.jpg
   committee:
-    - name: Jake Farrell
-      position: 🪑 Chair
-      username: cheese
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/cheese.png
-    - name: Ishita Gupta
-      position: 🪑 Vice-Chair
-      username: ishitag
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/ishitag.jpg
-    - name: Daniel Mc Entee
-      position: 💌 Secretary
-      username: kronos
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/kronos.png
-    - name: Malavika Shanker
-      position: 💸 Treasurer
-      username: calcifer
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/calcifer.png
-    - name: Philip Leonard
-      position: 📢 PRO
-      username: payne
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/payne.png
-    - name: Georgijs Pitkevics
-      position: 🎨 GDO
-      username: zx
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/zx.jpg
-    - name: Dominic Connor
-      position: 🚀 SysAdmin
-      username: wizzdom
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/wizzdom.png
-    - name: Ayden Jahola
-      position: 🚀 SysAdmin
-      username: ayden
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/ayden.jpg
-    - name: Gavin Holahan
-      position: 🚀 SysAdmin
-      username: hypnoant
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/hypnoant.png
-    - name: Jonathan Groult
-      position: 👾 Webmaster
-      username: nova
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/nova.jpg
-    - name: Pavel Ivanov
-      position: 🙌 Helpdesk
-      username: regaus
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/regaus.jpg
-    - name: Konstantin O'Donnell
-      position: 🙌 Helpdesk
-      username: xoreax
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/xoreax.jpg
-    - name: Shane Whelan
-      position: 📅 Events Officer
-      username: pluto
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/pluto.jpg
-    - name: Samuel Jones
-      position: 📅 Events Officer
-      username: ichiro
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/ichiro.jpg
-    - name: Claudia Gray
-      position: 💎 Ordinary Member
-      username: claudiaa
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/claudiaa.png
-    - name: Henri Simmons-Hayden
-      position: 💎 Ordinary Member
-      username: henri117
-      image: https://cdn.redbrick.dcu.ie/atlas/cmt24-25/henri117.jpg
-    # - name: Dennis Custiuc
-    #   position: 🥇 First Year Rep.
-    #   username: swooshy
-    #   image: /assets/img/committee/swooshy.png
+    - name: David Simeone
+      position: 🛡️ Co-admin
+      username: djsime1
+      image: https://github.com/djsime1.png
+    - name: Nicolas Formella
+      position: 🛡️ Co-admin
+      username: GlitchGecko
+      image: https://github.com/Glitch-Gecko.png
+    - name: Kacper Z
+      position: 🤵‍♂️ Administrative assistant
+      username: girimuszek
+      image: https://github.com/Glitch-Gecko.png
+    - name: Michael S
+      position: 🤵‍♂️ Administrative assistant
+      username: wikey
+      image: https://github.com/Glitch-Gecko.png
+    - name: Alex Florczyk
+      position: 📜 Cyber-policy guru
+      username: awesomealey
+      image: https://github.com/Glitch-Gecko.png
+    - name: Dr. Jason Perry
+      position: 👨‍🏫 Faculty supervisor
+      username: jasonp_cybsec
+      image: https://github.com/Glitch-Gecko.png
+    - name: Huda Hajira
+      position: 📱 Social media manager
+      username: huda-code
+      image: https://github.com/huda-code.png

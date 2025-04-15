@@ -3,7 +3,7 @@
   <aside class="px-5 py-16 h-screen w-80 max-w-screen overflow-auto bg-base-100 bg-opacity-90 backdrop-blur border-r border-white/5 shadow-md"> 
     <nav tabindex="0" class="menu">
       <li>
-        <header class="menu-title">Redbrick</header>
+        <header class="menu-title">{{ site.society.name }}</header>
         {% for entry in site.navigation.global %}
         <li><a href="{{ entry.link }}">{{ entry.text }}</a></li>
         {% endfor %}
