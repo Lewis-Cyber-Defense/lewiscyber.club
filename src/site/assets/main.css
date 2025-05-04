@@ -33,3 +33,7 @@
     @apply shadow-xl shadow-slate-800/30 rounded bg-cover bg-center;
   }
 }
+
+.font-supreme {
+  font-family: Supreme, sans-serif;
+}

@@ -6,7 +6,7 @@ const tocPlugin = require('eleventy-plugin-toc')
 const postcssPlugin = require('eleventy-plugin-postcss')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 
-const gitBuildPlugin = require('./eleventy/plugins/git-build')
+// const gitBuildPlugin = require('./eleventy/plugins/git-build')
 const pagefindPlugin = require('./eleventy/plugins/pagefind')
 const navigationRenderPlugin = require('./eleventy/plugins/navigation-render')
 const markdown = require('./eleventy/parsers/markdown')
@@ -30,13 +30,13 @@ module.exports = function (eleventyConfig) {
     )
   )
 
-  eleventyConfig.addPlugin(gitBuildPlugin, {
-    repos: [
-      { name: 'blog' },
-      { name: 'open-governance' },
-    ],
-    clean: false,
-  })
+  // eleventyConfig.addPlugin(gitBuildPlugin, {
+  //   repos: [
+  //     { name: 'blog' },
+  //     { name: 'open-governance' },
+  //   ],
+  //   clean: false,
+  // })
   eleventyConfig.addPlugin(pagefindPlugin)
   eleventyConfig.addPlugin(postcssPlugin)
   eleventyConfig.addPlugin(eleventyNavigationPlugin)

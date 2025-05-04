@@ -1,7 +1,7 @@
 images:
-  brick: https://raw.githubusercontent.com/redbrick/design-system/main/assets/logos/redbrick.svg
-  emote: https://raw.githubusercontent.com/redbrick/design-system/main/assets/logos/resign-emote.png
-  logo: https://raw.githubusercontent.com/redbrick/design-system/main/assets/logos/logo.png
+  icon: /assets/svg/flamingo.svg
+  emote: https://cdn.discordapp.com/emojis/894695092231757885.webp
+  logo: /assets/svg/flamingo.svg
 society:
   name: LU Cyber Defense Club
   tagline: Lewis University's cyber competition team.
@@ -9,10 +9,8 @@ navigation:
   global:
     - text: Blog
       link: /blog
-    - text: Competitions
-      link: /competitions
     - text: Pilots Handbook
-      link: https://ph.dj.je/
+      link: https://wiki.lewiscyber.club/
   blog:
     - text: Events
       tag: events
@@ -26,11 +24,11 @@ navigation:
       tag: newsletter
   buttons:
     primary:
-      text: Signup
-      link: https://join.redbrick.dcu.ie
+      text: Register
+      link: https://lewiscyber.club/register
     secondary:
-      text: Discord
-      link: https://discord.redbrick.dcu.ie
+      text: Member portal
+      link: https://portal.lewiscyber.club
 drawer: navigation
 home:
   hero:
@@ -40,53 +38,41 @@ home:
     body: The CaMS Cyber Defense Club offers students hands-on opportunities to become cyber security experts. We work together to learn the concepts, skills, and tools modern cyber security warriors need to defend mission-critical systems. One of the things that makes this activity unique is that it is entirely student-run. That way, it really serves as the perfect complement to all the security-focused coursework you can take as a Computer Science student at Lewis University.
     buttons:
       primary:
-        text: Signup
-        link: https://join.redbrick.dcu.ie
+        text: Start here
+        link: https://lewiscyber.club/register
       secondary:
         text: Discord
-        link: https://discord.redbrick.dcu.ie
+        link: https://lewiscyber.club/discord
   cta:
     title: Don't Miss Out
     body: Lewis University is a nationally recognized Center of Academic Excellence in Information Assurance Education by the Department of Homeland Security & the National Security Agency
     button:
       text: Join us today
-      link: https://join.redbrick.dcu.ie
+      link: https://lewiscyber.club/register
     gallery:
-      r1c1: https://cdn.redbrick.dcu.ie/atlas/static/img/tagging-24.jpg
-      r1c2: https://cdn.redbrick.dcu.ie/atlas/static/img/newsletter-snap.webp
-      r1c3: https://cdn.redbrick.dcu.ie/atlas/static/img/hacker.jpg
-      r2c1: https://cdn.redbrick.dcu.ie/atlas/static/img/browner-explains.jpg
-      r2c2: https://cdn.redbrick.dcu.ie/atlas/static/img/sistem-mag1c.jpg
-      r2c3: https://cdn.redbrick.dcu.ie/atlas/static/img/working.jpg
-      r3c1: https://cdn.redbrick.dcu.ie/atlas/static/img/hecker.jpg
-      r3c2: https://cdn.redbrick.dcu.ie/atlas/static/img/cmt-24-25.jpg
-      r3c3: https://cdn.redbrick.dcu.ie/atlas/static/img/CSBallCmt24.jpg
+      r1c1: https://cdn.lewiscyber.club/gallery/grid01.webp
+      r1c2: https://cdn.lewiscyber.club/gallery/grid02.webp
+      r1c3: https://cdn.lewiscyber.club/gallery/grid03.webp
+      r2c1: https://cdn.lewiscyber.club/gallery/grid04.webp
+      r2c2: https://cdn.lewiscyber.club/gallery/grid05.webp
+      r2c3: https://cdn.lewiscyber.club/gallery/grid06.webp
+      r3c1: https://cdn.lewiscyber.club/gallery/grid07.webp
+      r3c2: https://cdn.lewiscyber.club/gallery/grid08.webp
+      r3c3: https://cdn.lewiscyber.club/gallery/grid09.webp
   committee:
     - name: David Simeone
-      position: 🛡️ Co-admin
+      position: 🤵‍♂️ President
       username: djsime1
       image: https://github.com/djsime1.png
-    - name: Nicolas Formella
-      position: 🛡️ Co-admin
-      username: GlitchGecko
-      image: https://github.com/Glitch-Gecko.png
-    - name: Kacper Z
-      position: 🤵‍♂️ Administrative assistant
+    - name: Kacper Zalewski
+      position: 🤵‍♂️ Vice president
       username: girimuszek
-      image: https://github.com/Glitch-Gecko.png
-    - name: Michael S
-      position: 🤵‍♂️ Administrative assistant
-      username: wikey
-      image: https://github.com/Glitch-Gecko.png
-    - name: Alex Florczyk
-      position: 📜 Cyber-policy guru
-      username: awesomealey
+      image: https://github.com/girimuszek.png
+    - name: Nicolas Formella
+      position: 🛡️ Admin emeritus
+      username: GlitchGecko
       image: https://github.com/Glitch-Gecko.png
     - name: Dr. Jason Perry
       position: 👨‍🏫 Faculty supervisor
       username: jasonp_cybsec
-      image: https://github.com/Glitch-Gecko.png
-    - name: Huda Hajira
-      position: 📱 Social media manager
-      username: huda-code
-      image: https://github.com/huda-code.png
+      image: https://github.com/jasonperry.png

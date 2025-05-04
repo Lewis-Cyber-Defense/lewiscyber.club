@@ -317,49 +317,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redbrick/atlas@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@redbrick/atlas@workspace:."
-  dependencies:
-    "@11ty/eleventy": "npm:^2.0.1"
-    "@11ty/eleventy-navigation": "npm:^0.3.5"
-    "@redbrick/design-system": "https://github.com/redbrick/design-system"
-    "@types/markdown-it": "npm:^13.0.7"
-    "@xpd/tailwind-3dtransforms": "npm:^1.0.3"
-    autoprefixer: "npm:^10.4.17"
-    debug: "npm:^4.3.4"
-    eleventy-plugin-postcss: "npm:^1.0.4"
-    eleventy-plugin-toc: "npm:^1.1.5"
-    gray-matter: "npm:^4.0.3"
-    js-yaml: "npm:^4.1.0"
-    luxon: "npm:^3.4.4"
-    markdown-it: "npm:^14.0.0"
-    markdown-it-anchor: "npm:^8.6.7"
-    markdown-it-replace-link: "npm:^1.2.1"
-    mkdirp: "npm:^3.0.1"
-    npm-run-all: "npm:^4.1.5"
-    pagefind: "npm:^1.0.4"
-    postcss: "npm:^8.4.33"
-    postcss-load-config: "npm:^5.0.2"
-    reading-time: "npm:^1.5.0"
-    rimraf: "npm:^5.0.5"
-    simple-git: "npm:^3.22.0"
-    slugify: "npm:^1.6.6"
-    tailwindcss: "npm:^3.4.1"
-  languageName: unknown
-  linkType: soft
-
-"@redbrick/design-system@https://github.com/redbrick/design-system":
-  version: 0.0.4
-  resolution: "@redbrick/design-system@https://github.com/redbrick/design-system.git#commit=1eea70500d2f8cce631905695cf45919cc6173bd"
-  dependencies:
-    "@tailwindcss/typography": "npm:^0.5.10"
-    daisyui: "npm:^4.6.0"
-    tailwindcss: "npm:^3.4.1"
-  checksum: 10c0/b34557996680bb6d33fb12791d301c94d2b56fee286075dcf7646e84a1b4da0cab4fb93d0c2fa38792dde4030531e2e5928777decc406d92638dff26e380225b
-  languageName: node
-  linkType: hard
-
 "@sindresorhus/slugify@npm:^1.1.2":
   version: 1.1.2
   resolution: "@sindresorhus/slugify@npm:1.1.2"
@@ -381,8 +338,8 @@ __metadata:
   linkType: hard
 
 "@tailwindcss/typography@npm:^0.5.10":
-  version: 0.5.10
-  resolution: "@tailwindcss/typography@npm:0.5.10"
+  version: 0.5.16
+  resolution: "@tailwindcss/typography@npm:0.5.16"
   dependencies:
     lodash.castarray: "npm:^4.4.0"
     lodash.isplainobject: "npm:^4.0.6"
@@ -390,7 +347,7 @@ __metadata:
     postcss-selector-parser: "npm:6.0.10"
   peerDependencies:
     tailwindcss: "*"
-  checksum: 10c0/0fa9c96bf091fb79fdc39a0244027b3891e9205f714197c8196e7ba2305523ce8695d14b912366de9b77d4b1d3a742fb7f9bc9bb633fddc7c7f13374b41075d2
+  checksum: 10c0/35a7387876810c23c270a23848b920517229b707c8ead6a63c8bb7d6720a62f23728c3117f0a93b422a66d1e5ee9c7ad8a6c3f0fbf5255b535c0e4971ffa0158
   languageName: node
   linkType: hard
 
@@ -2325,6 +2282,39 @@ __metadata:
   checksum: 10c0/e9de6cb49657b6fa70ba2d1448fd3d691a5c4370d8f7bbf1c2f64c24d461270f2117e1b0afe8cb3114f13bbd8e51de158c2a224953960331904e636a5e4c0f2a
   languageName: node
   linkType: hard
+
+"lewiscyber-club@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "lewiscyber-club@workspace:."
+  dependencies:
+    "@11ty/eleventy": "npm:^2.0.1"
+    "@11ty/eleventy-navigation": "npm:^0.3.5"
+    "@tailwindcss/typography": "npm:^0.5.10"
+    "@types/markdown-it": "npm:^13.0.7"
+    "@xpd/tailwind-3dtransforms": "npm:^1.0.3"
+    autoprefixer: "npm:^10.4.17"
+    daisyui: "npm:^4.6.0"
+    debug: "npm:^4.3.4"
+    eleventy-plugin-postcss: "npm:^1.0.4"
+    eleventy-plugin-toc: "npm:^1.1.5"
+    gray-matter: "npm:^4.0.3"
+    js-yaml: "npm:^4.1.0"
+    luxon: "npm:^3.4.4"
+    markdown-it: "npm:^14.0.0"
+    markdown-it-anchor: "npm:^8.6.7"
+    markdown-it-replace-link: "npm:^1.2.1"
+    mkdirp: "npm:^3.0.1"
+    npm-run-all: "npm:^4.1.5"
+    pagefind: "npm:^1.0.4"
+    postcss: "npm:^8.4.33"
+    postcss-load-config: "npm:^5.0.2"
+    reading-time: "npm:^1.5.0"
+    rimraf: "npm:^5.0.5"
+    simple-git: "npm:^3.22.0"
+    slugify: "npm:^1.6.6"
+    tailwindcss: "npm:^3.4.1"
+  languageName: unknown
+  linkType: soft
 
 "lilconfig@npm:^2.0.4, lilconfig@npm:^2.1.0":
   version: 2.1.0

@@ -4,10 +4,6 @@
 # Build output
 dist/
 
-# Cloned repositories during build
-src/site/blog/
-src/site/open-governance/
-
 # Yarn
 .yarn/*
 !.yarn/patches
