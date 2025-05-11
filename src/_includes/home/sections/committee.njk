@@ -1,5 +1,10 @@
 <section class="bg-base-100">
-  <div class="flex p-5 md:p-10 space-x-5 md:space-x-10 overflow-x-scroll">
+  <div class="px-5 pt-5 md:px-10 md:pt-10">
+    <h1 class="text-center text-3xl font-bold">
+      Meet the administration team!
+    </h1>
+  </div>
+  <div class="flex justify-center p-5 md:p-10 space-x-5 md:space-x-10 overflow-x-scroll">
     {% for member in site.home.committee -%}
     <div data-cmt-trigger class="flex flex-col items-center">
       <h2 data-cmt-title="{{ member.position }}" class="font-mono font-bold text-sm md:text-md h-10 whitespace-nowrap">
@@ -12,7 +17,7 @@
           </small>
         </span>
         <div class="relative rounded-xl border border-base-content/20 shadow-xl shadow-slate-950/20 overflow-hidden">
-          <img class="-z-10 aspect-[0.75] w-40 max-w-[35vw] object-cover object-center" src="{{ member.image }}" alt="{{ member.name }}" />
+          <img class="-z-10 aspect-[0.75] w-40 lg:w-48 max-w-[35vw] object-cover object-center" src="{{ member.image }}" alt="{{ member.name }}" />
           <div class="absolute bottom-0 w-full p-2 bg-base-200 bg-opacity-75 backdrop-blur-sm">
             <p class="text-center md:text-lg">
               {{ member.name }}

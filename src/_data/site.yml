@@ -63,16 +63,16 @@ home:
     - name: David Simeone
       position: 🤵‍♂️ President
       username: djsime1
-      image: https://github.com/djsime1.png
+      image: https://cdn.lewiscyber.club/portraits/David.webp
     - name: Kacper Zalewski
       position: 🤵‍♂️ Vice president
       username: girimuszek
-      image: https://github.com/girimuszek.png
+      image: https://cdn.lewiscyber.club/portraits/Kacper.webp
     - name: Nicolas Formella
       position: 🛡️ Admin emeritus
       username: GlitchGecko
-      image: https://github.com/Glitch-Gecko.png
+      image: https://cdn.lewiscyber.club/portraits/Nic.webp
     - name: Dr. Jason Perry
       position: 👨‍🏫 Faculty supervisor
       username: jasonp_cybsec
-      image: https://github.com/jasonperry.png
+      image: https://cdn.lewiscyber.club/portraits/Perry.webp
