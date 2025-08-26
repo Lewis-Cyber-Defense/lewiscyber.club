@@ -1,0 +1,52 @@
+<section class="bg-base-200">
+  <div class="px-5 pt-5 md:px-10 md:pt-10">
+    <h1 class="text-center text-3xl font-bold">
+      Weekly meeting schedule ({{ site.home.schedule.semester }})
+    </h1>
+  </div>
+  <div class="flex justify-center p-5 md:p-10 space-x-5 md:space-x-10 overflow-x-scroll">
+    <div data-ms-trigger class="flex flex-col items-center">
+      <div data-ms-card class="relative rounded-xl border border-base-content/20 shadow-xl shadow-slate-950/20 overflow-hidden bg-base-300 p-10">
+        <p class="text-center font-mono text-lg md:text-xl">
+          Meet every <span class="font-bold">{{ site.home.schedule.day }}</span>
+          <br>
+          <span class="font-bold">Location:</span> {{ site.home.schedule.location }}
+          <br>
+          <span class="font-bold">Time:</span> {{ site.home.schedule.time }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="px-5 pb-5 md:px-10 md:pb-10">
+    <h2 class="text-center text-lg md:text-xl italic">
+      Meetings are also streamed to Discord
+    </h2>
+  </div>
+</section>
+<script>
+  if (!userAgent.getDevice().type) { // is a desktop device
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.registerPlugin(TextPlugin)
+    gsap.set("[data-ms-card]", {
+      scale: 0.9,
+      opacity: 0,
+    })
+    gsap.set("[data-ms-title]", {
+      text: "",
+    })
+    ScrollTrigger.batch("[data-ms-trigger]", {
+      once: true,
+      end: "bottom bottom",
+      onEnter: (batch) => batch.forEach((element, i) => {
+        const cardElement = element.querySelector("[data-ms-card]")
+        gsap.to(cardElement, {
+          scale: 1,
+          opacity: 1,
+          duration: 0.3,
+          ease: "power2.inOut",
+          delay: 0.2,
+        })
+      }),
+    })
+  }
+</script>

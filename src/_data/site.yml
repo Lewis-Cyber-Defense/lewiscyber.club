@@ -41,7 +41,7 @@ home:
         text: Start here
         link: https://lewiscyber.club/register
       secondary:
-        text: Discord
+        text: Discord guild
         link: https://lewiscyber.club/discord
   cta:
     title: Don't Miss Out
@@ -68,11 +68,16 @@ home:
       position: 🤵‍♂️ Vice president
       username: girimuszek
       image: https://cdn.lewiscyber.club/portraits/Kacper.webp
-    - name: Nicolas Formella
-      position: 🛡️ Admin emeritus
-      username: GlitchGecko
-      image: https://cdn.lewiscyber.club/portraits/Nic.webp
+    - name: Michael Stoztok
+      position: 🛡️ Administrative assistant
+      username: wikey_
+      image: https://cdn.lewiscyber.club/portraits/Michael.webp
     - name: Dr. Jason Perry
       position: 👨‍🏫 Faculty supervisor
       username: jasonp_cybsec
       image: https://cdn.lewiscyber.club/portraits/Perry.webp
+  schedule:
+    semester: Fall 2025
+    day: Monday
+    time: 2:00-4:00 PM
+    location: AS-101-S
