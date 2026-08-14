@@ -67,5 +67,7 @@ module.exports = function (eleventyConfig) {
     autoescape: false,
   })
 
+  eleventyConfig.addShortcode("copyrightyear", () => `${new Date().getFullYear()}`);
+
   return pkg.eleventy
 }

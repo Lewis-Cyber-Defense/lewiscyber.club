@@ -6,6 +6,12 @@ module.exports = {
   daisyui: {
     themes: [
       {
+        dark: {
+          ...themes.dark,
+        },
+        light: {
+          ...themes.light,
+        },
         partii: {
           "base-100": '#141D1D',
           "base-200": '#293232',
@@ -27,12 +33,6 @@ module.exports = {
           "warning-content": 'rgba(0, 0, 0, 0.8)',
           "error": '#EF5350',
           "error-content": 'rgba(255, 255, 255, 0.8)',
-        },
-        light: {
-          ...themes.light,
-        },
-        dark: {
-          ...themes.dark,
         },
       },
     ],

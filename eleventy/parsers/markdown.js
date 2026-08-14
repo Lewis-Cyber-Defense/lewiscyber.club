@@ -23,10 +23,10 @@ md.use(anchor, {
 })
 
 md.use(replaceLink, {
-  processHTML: true,
+  processHTML: false,
   replaceLink: function (link, _env, token, _htmlToken) {
-    // do not transform external links or image links
-    const ignore = [isExternalUrl(link), token.type == 'image']
+    // do not transform external, image, or mailto links
+    const ignore = [isExternalUrl(link), token.type == 'image', link.startsWith('mailto:')]
 
     return ignore.some((condition) => condition === true)
       ? link

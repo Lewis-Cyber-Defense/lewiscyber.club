@@ -25,7 +25,7 @@ navigation:
   buttons:
     primary:
       text: Register
-      link: https://lewiscyber.club/register
+      link: /register
     secondary:
       text: Member portal
       link: https://portal.lewiscyber.club
@@ -39,16 +39,16 @@ home:
     buttons:
       primary:
         text: Start here
-        link: https://lewiscyber.club/register
+        link: /register
       secondary:
         text: Discord guild
-        link: https://lewiscyber.club/discord
+        link: /discord
   cta:
     title: Don't Miss Out
     body: Lewis University is a nationally recognized Center of Academic Excellence in Information Assurance Education by the Department of Homeland Security & the National Security Agency
     button:
       text: Join us today
-      link: https://lewiscyber.club/register
+      link: /register
     gallery:
       r1c1: https://cdn.lewiscyber.club/gallery/grid01.webp
       r1c2: https://cdn.lewiscyber.club/gallery/grid02.webp
@@ -61,17 +61,9 @@ home:
       r3c3: https://cdn.lewiscyber.club/gallery/grid09.webp
   committee:
     - name: David Simeone
-      position: 🤵‍♂️ President
+      position: 👨‍🎓 Emeritus President
       username: djsime1
       image: https://cdn.lewiscyber.club/portraits/David.webp
-    - name: Kacper Zalewski
-      position: 🤵‍♂️ Vice president
-      username: girimuszek
-      image: https://cdn.lewiscyber.club/portraits/Kacper.webp
-    - name: Michael Stoztok
-      position: 🛡️ Administrative assistant
-      username: wikey_
-      image: https://cdn.lewiscyber.club/portraits/Michael.webp
     - name: Dr. Jason Perry
       position: 👨‍🏫 Faculty supervisor
       username: jasonp_cybsec
